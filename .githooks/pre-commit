@@ -1,0 +1,3 @@
+#!/bin/sh
+# Keep the README snippets in sync with the scripts (see AGENTS.md).
+node scripts/sync-readme.mjs && git add README.md
